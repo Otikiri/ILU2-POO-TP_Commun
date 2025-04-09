@@ -30,7 +30,7 @@ public class CalendrierAnnuel {
 			mois[nbMois-1].reserver(nbJour);
 		}
 		catch (Exception e) {
-			System.out.println("La date "+nbJour+" du mois "+nbMois+" n'est pas reservable");
+			//System.out.println("La date "+nbJour+" du mois "+nbMois+" n'est pas reservable");
 			return false;
 		}
 		return true; 
