@@ -1,7 +1,5 @@
 package model;
 
-
-
 public class CalendrierAnnuel {
 	
 	private Mois[] mois = new Mois[12];
